@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazon Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+
+        .search-bar input[type="text"] {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .search-bar button {
+            padding: 10px;
+            background-color: #febd69;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: url('banner-image.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .products-section {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .product {
+            flex: 1 1 calc(25% - 20px);
+            /* Four items per row */
+            max-width: 200px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="Header">
+            <div class="Logo">Amazon</div>
+            <div class="Search-bar"></div>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Sign in </a>
+            <a href="#">Order</a>
+            <a href="#">Cart</a>
+        </div>
+    </header>
+    <div class="banner"></div>
+    <div class="products-section">
+        <div class="section-title">Featured Products</div>
+        <div class="product list">
+            <div class="product"></div>
+            <img src="product1.jfif" alt="product1">
+            <div>Watch</div>
+            <div>$55.99</div>
+        </div>
+        <div>
+            <div class="product"></div>
+            <img src="product2.jfif" alt="product2">
+            <div>Camera</div>
+            <div>$95.99</div>
+        </div>
+        <div>
+            <div class="product"></div>
+            <img src="product3.jfif" alt="product3">
+            <div>Face Wash</div>
+            <div>$30.99</div>
+        </div>
+        <div>
+            <div class="product"></div>
+            <img src="product4.jfif" alt="product4">
+            <div>T-Shirt</div>
+            <div>$25.99</div>
+        </div>
+        <div>
+            <div class="product"></div>
+            <img src="product5.jfif" alt="product5">
+            <div>Shoes</div>
+            <div>$35.99</div>
+        </div>
+        <div>
+            <div class="product"></div>
+            <img src="product6.jfif" alt="product6">
+            <div>HeadPhones</div>
+            <div>$50.99</div>
+        </div>
+        <div>
+            <div class="products-section">
+                <div class="section-title">Recommended Products</div>
+                <div class="product list">
+                    <div class="product"></div>
+                    <img src="product1.jfif" alt="product1">
+                    <div>Watch</div>
+                    <div>$55.99</div>
+                </div>
+                <div>
+                    <div class="product"></div>
+                    <img src="product2.jfif" alt="product2">
+                    <div>Camera</div>
+                    <div>$95.99</div>
+                </div>
+                <div>
+                    <div class="product"></div>
+                    <img src="product3.jfif" alt="product3">
+                    <div>Face Wash</div>
+                    <div>$30.99</div>
+                </div>
+                <div>
+                    <div class="product"></div>
+                    <img src="product4.jfif" alt="product4">
+                    <div>T-Shirt</div>
+                    <div>$25.99</div>
+                </div>
+                <div>
+                    <div class="product"></div>
+                    <img src="product5.jfif" alt="product5">
+                    <div>Shoes</div>
+                    <div>$35.99</div>
+                </div>
+                <div>
+                    <div class="product"></div>
+                    <img src="product6.jfif" alt="product6">
+                    <div>HeadPhones</div>
+                    <div>$50.99</div>
+                </div>
+            </div>
+            <footer>
+                2024 My E-Commerce. All rights reserved.
+            </footer>
+
+        </div>
+</body>
+
+</html>
